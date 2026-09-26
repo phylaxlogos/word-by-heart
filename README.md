@@ -14,7 +14,7 @@ Download the installer for your computer. Word by Heart opens in its own desktop
 | Mac — Intel | [DMG](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-mac-x64.dmg) |
 | Windows — Intel/AMD (x64) | [Setup](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-win-x64.exe) |
 | Windows — ARM64 | [Setup](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-win-arm64.exe) |
-| Linux — Intel/AMD (x64) | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-x64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-x64.deb) |
+| Linux — Intel/AMD (x64) | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-x86_64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-amd64.deb) |
 | Linux — ARM64 | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-arm64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-arm64.deb) |
 
 **Mac:** Open the DMG, drag **Word by Heart** into **Applications**, eject the disk image, and open the installed app. The current Mac app is not Apple Developer ID signed or notarized. If macOS blocks this download, click **Done**, then open **System Settings → Privacy & Security → Open Anyway** for Word by Heart and confirm **Open**. [Apple's instructions](https://support.apple.com/en-us/102445#openanyway).
