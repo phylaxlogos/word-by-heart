@@ -10,12 +10,12 @@ Download the installer for your computer. Word by Heart opens in its own desktop
 
 | Computer | Installer |
 |---|---|
-| Mac — Apple silicon (M-series) | [DMG](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-mac-arm64.dmg) |
-| Mac — Intel | [DMG](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-mac-x64.dmg) |
-| Windows — Intel/AMD (x64) | [Setup](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-win-x64.exe) |
-| Windows — ARM64 | [Setup](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-win-arm64.exe) |
-| Linux — Intel/AMD (x64) | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-x86_64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-amd64.deb) |
-| Linux — ARM64 | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-arm64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-arm64.deb) |
+| Mac — Apple silicon (M-series) | [DMG](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.1/Word-by-Heart-0.3.1-mac-arm64.dmg) |
+| Mac — Intel | [DMG](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.1/Word-by-Heart-0.3.1-mac-x64.dmg) |
+| Windows — Intel/AMD (x64) | [Setup](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.1/Word-by-Heart-0.3.1-win-x64.exe) |
+| Windows — ARM64 | [Setup](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.1/Word-by-Heart-0.3.1-win-arm64.exe) |
+| Linux — Intel/AMD (x64) | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.1/Word-by-Heart-0.3.1-linux-x86_64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.1/Word-by-Heart-0.3.1-linux-amd64.deb) |
+| Linux — ARM64 | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.1/Word-by-Heart-0.3.1-linux-arm64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.1/Word-by-Heart-0.3.1-linux-arm64.deb) |
 
 **Mac:** Open the DMG, drag **Word by Heart** into **Applications**, eject the disk image, and open the installed app. The current Mac app is not Apple Developer ID signed or notarized. If macOS blocks this download, click **Done**, then open **System Settings → Privacy & Security → Open Anyway** for Word by Heart and confirm **Open**. [Apple's instructions](https://support.apple.com/en-us/102445#openanyway).
 
@@ -38,7 +38,7 @@ Mac automatic desktop updates require Apple signing, which is not configured yet
 
 The installed Apple silicon Mac app has been tested for saving, closing, reopening and recovery. Other installers are built on their native operating-system runners; their graphical installation and runtime behavior have not been manually tested.
 
-The [release assets](https://github.com/phylaxlogos/word-by-heart/releases/tag/v0.3.0) also contain portable browser ZIPs, named `word-by-heart_0.3.0_...zip`. Extract those to a permanent writable folder and run **Start Word by Heart** to use **http://localhost:8080**. Keep the extracted `data` folder when manually upgrading a portable copy. Raw executables and `SHA256SUMS` support its existing updater; they are not the desktop installer.
+The [release assets](https://github.com/phylaxlogos/word-by-heart/releases/tag/v0.3.1) also contain portable browser ZIPs, named `word-by-heart_0.3.1_...zip`. Extract those to a permanent writable folder and run **Start Word by Heart** to use **http://localhost:8080**. Keep the extracted `data` folder when manually upgrading a portable copy. Raw executables and `SHA256SUMS` support its existing updater; they are not the desktop installer.
 
 [Scripture source and attribution](https://github.com/phylaxlogos/word-by-heart/blob/main/SCRIPTURE-SOURCE.md).
 
