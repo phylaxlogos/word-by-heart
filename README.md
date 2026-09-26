@@ -6,36 +6,45 @@ A simple, offline Scripture memorisation app.
 
 ## Download
 
-Download the ZIP for your computer, extract the whole folder, then run **Start Word by Heart**. You do not need to install Go or create an account.
+Download the installer for your computer. Word by Heart opens in its own desktop window and works offline. You do not need Go, Node, or an account.
 
-| Computer | ZIP |
+| Computer | Installer |
 |---|---|
-| Mac — Apple silicon (M-series) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.2.0/word-by-heart_0.2.0_darwin_arm64.zip) |
-| Mac — Intel | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.2.0/word-by-heart_0.2.0_darwin_amd64.zip) |
-| Windows — Intel/AMD (x64) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.2.0/word-by-heart_0.2.0_windows_amd64.zip) |
-| Windows — ARM | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.2.0/word-by-heart_0.2.0_windows_arm64.zip) |
-| Linux — Intel/AMD (x64) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.2.0/word-by-heart_0.2.0_linux_amd64.zip) |
-| Linux — ARM64 | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.2.0/word-by-heart_0.2.0_linux_arm64.zip) |
+| Mac — Apple silicon (M-series) | [DMG](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-mac-arm64.dmg) |
+| Mac — Intel | [DMG](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-mac-x64.dmg) |
+| Windows — Intel/AMD (x64) | [Setup](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-win-x64.exe) |
+| Windows — ARM64 | [Setup](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-win-arm64.exe) |
+| Linux — Intel/AMD (x64) | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-x64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-x64.deb) |
+| Linux — ARM64 | [AppImage](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-arm64.AppImage) · [Debian package](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.3.0/Word-by-Heart-0.3.0-linux-arm64.deb) |
+
+**Mac:** Open the DMG, drag **Word by Heart** into **Applications**, eject the disk image, and open the installed app. The current Mac app is not Apple Developer ID signed or notarized. If macOS blocks this download, click **Done**, then open **System Settings → Privacy & Security → Open Anyway** for Word by Heart and confirm **Open**. [Apple's instructions](https://support.apple.com/en-us/102445#openanyway).
+
+**Windows:** Run Setup, then open Word by Heart from the Start menu. The current installer is unsigned, so Windows may display a publisher warning.
+
+**Linux:** Mark the AppImage executable and open it, or install the Debian package using your distribution's package installer.
 
 ## Features
 
 - NASB 1995 library with original CrossWire source metadata and copyright notices.
 - Chapter practice, memory passage collections, difficulty modes, favourites, and recitation dates.
 - Progress saved in your browser and automatically synced to a private database on your computer. No progress is uploaded or bundled with downloads.
-- In-app update checks, verified downloads, install/restart, and recovery to the previous app if an update fails.
-- **S → Quit Word by Heart** to save and close the local app; the launcher reopens an existing running copy.
+- A desktop window with a normal app icon, single-instance launch, and save-before-close behavior.
+- In-app update checks. Windows Setup and Linux AppImage installations support install/restart; unsigned Mac and Debian installations link to the new download.
+- **S → Quit Word by Heart** saves and closes the app. Normal window close and application Quit also save first.
 
-Open the app at **http://localhost:8080**. A fresh browser, or one whose site data has been cleared, restores synced progress from the computer database. Wait for the save indicator to confirm the computer copy is saved before clearing browser data. Preserve the extracted `data` folder during manual upgrades; it contains the Bible library.
+The desktop window restores synced progress from the same computer database used by the previous browser edition. Before switching, wait for the browser edition's save indicator to confirm the computer copy is saved. Reinstalling the app does not replace that database.
 
-These are portable, unsigned builds, not notarized installers. Mac launch, browser saving, update and recovery were tested; Windows and Linux packages were cross-compiled and their archives verified, but were not run on those operating systems. Read the included `GETTING-STARTED.md` before first use.
+Mac automatic desktop updates require Apple signing, which is not configured yet. The installed Mac app offers a download link for new versions. A DMG installer alone does not remove Apple's verification warning.
 
-The individual executable assets and `SHA256SUMS` are required by the updater. For a first installation, choose a ZIP above.
+The installed Apple silicon Mac app has been tested for saving, closing, reopening and recovery. Other installers are built on their native operating-system runners; their graphical installation and runtime behavior have not been manually tested.
+
+The [release assets](https://github.com/phylaxlogos/word-by-heart/releases/tag/v0.3.0) also contain portable browser ZIPs, named `word-by-heart_0.3.0_...zip`. Extract those to a permanent writable folder and run **Start Word by Heart** to use **http://localhost:8080**. Keep the extracted `data` folder when manually upgrading a portable copy. Raw executables and `SHA256SUMS` support its existing updater; they are not the desktop installer.
 
 [Scripture source and attribution](https://github.com/phylaxlogos/word-by-heart/blob/main/SCRIPTURE-SOURCE.md).
 
 ## Updates and privacy
 
-The app checks this repository for new releases. When an update is available, choose **Install update and restart** in the sidebar. The app verifies the download and preserves your library and browser progress. Reading and practice work offline; update checks need an internet connection.
+The app checks this repository for new releases. Use **Install update and restart** where supported, or download the new installer when offered. Desktop updates replace the installed app; the portable browser edition retains its separate executable updater. Reading and practice work offline; update checks need an internet connection.
 
 Personal progress, favourites, recitation dates and reading position stay on your computer. Changes save in the browser immediately, then sync to a private SQLite database. Interrupted saves retry automatically. All browsers using the same local app and computer account share this database; there is no account or cloud sync. Theme and sidebar appearance preferences remain browser-specific.
 
@@ -49,4 +58,4 @@ The app creates its personal database on first launch, outside the downloaded ap
 
 To back it up, quit the app and copy that personal database folder. Keep your backup private. Existing v0.1.x browser saves are merged on startup; an older `data/progress.sqlite` is imported when the new personal database is first created, without modifying the old file. No personal progress is included in any release.
 
-This repository contains downloads and release documentation. GitHub’s automatically generated source archives contain this documentation, not an installable app; use the platform ZIPs above.
+This repository contains downloads and release documentation. GitHub’s automatically generated source archives contain this documentation, not an installable app; use the installers above.
