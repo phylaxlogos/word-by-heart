@@ -10,12 +10,12 @@ Download the ZIP for your computer, extract the whole folder, then run **Start W
 
 | Computer | ZIP |
 |---|---|
-| Mac — Apple silicon (M-series) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.0/word-by-heart_0.1.0_darwin_arm64.zip) |
-| Mac — Intel | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.0/word-by-heart_0.1.0_darwin_amd64.zip) |
-| Windows — Intel/AMD (x64) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.0/word-by-heart_0.1.0_windows_amd64.zip) |
-| Windows — ARM | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.0/word-by-heart_0.1.0_windows_arm64.zip) |
-| Linux — Intel/AMD (x64) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.0/word-by-heart_0.1.0_linux_amd64.zip) |
-| Linux — ARM64 | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.0/word-by-heart_0.1.0_linux_arm64.zip) |
+| Mac — Apple silicon (M-series) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.1/word-by-heart_0.1.1_darwin_arm64.zip) |
+| Mac — Intel | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.1/word-by-heart_0.1.1_darwin_amd64.zip) |
+| Windows — Intel/AMD (x64) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.1/word-by-heart_0.1.1_windows_amd64.zip) |
+| Windows — ARM | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.1/word-by-heart_0.1.1_windows_arm64.zip) |
+| Linux — Intel/AMD (x64) | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.1/word-by-heart_0.1.1_linux_amd64.zip) |
+| Linux — ARM64 | [Download](https://github.com/phylaxlogos/word-by-heart/releases/download/v0.1.1/word-by-heart_0.1.1_linux_arm64.zip) |
 
 ## Features
 
